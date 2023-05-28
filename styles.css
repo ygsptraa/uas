@@ -1,0 +1,53 @@
+.jumbotron {
+  padding: 2rem;
+  background-size: cover;
+  height: 700px;
+}
+nav {
+  background: rgb(84, 93, 130);
+  backdrop-filter: blur(15px) brightness(75%) saturate(70%);
+}
+nav #nav-button:checked ~ ul {
+  max-height: 100%;
+  transition: all;
+}
+h1 {
+  color: black;
+}
+h2 {
+  color: rgb(250, 250, 250);
+  font-family: Helvetica;
+}
+table {
+  border-collapse: collapse;
+  font-size: 10pt;
+  border: 3px white;
+}
+td {
+  padding: 3px;
+  height: 25px;
+}
+th {
+  background-color: rgb(156, 158, 158);
+  color: white;
+  height: 30px;
+}
+.display-4 {
+  color: rgba(0, 0, 0, 0.692);
+  font-size: 40px;
+  font-family: Impact;
+}
+.mt-3, .my-3 {
+  margin-top: 1rem!important;
+}
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+.table-primary tbody+tbody, .table-primary td, .table-primary th, .table-primary thead th {
+  border-color: #0078f9;
+}
+.form-container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px; /* Sesuaikan dengan kebutuhan Anda */
+}
